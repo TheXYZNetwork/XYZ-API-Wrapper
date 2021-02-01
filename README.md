@@ -10,7 +10,7 @@ Step 3: This will then proceed to open the `Tools` menu and you will need to cli
 
 Step 4: Once you have clicked on the button it will open a new tab which will be called Google App Scripts which is where the application will give you a starter function which `myFunction()`.
 
-Step 5: Copy the XYZ API Wrapper script from [Github](https://github.com/itstomsci/XYZ-API-Wrapper/blob/google-script/index.gs) and proceed to paste the copied script into the Google App Scripts tab making sure to clear anything in the file like the starter function which is what the application will give you. You can delete the script by selecting all the current script (CONTROL + A) and deleting it (BACKSPACE | DELETE). Then make sure to press the `Save` button located on the navigation bar within the page.
+Step 5: Copy the XYZ API Wrapper script from [Github](https://github.com/TheXYZNetwork/XYZ-API-Wrapper/blob/google-script/index.gs) and proceed to paste the copied script into the Google App Scripts tab making sure to clear anything in the file like the starter function which is what the application will give you. You can delete the script by selecting all the current script (CONTROL + A) and deleting it (BACKSPACE | DELETE). Then make sure to press the `Save` button located on the navigation bar within the page.
 
 Step 6: Now head back to your Google Spreadsheet tab and reload the page, if you have done this installation process correctly it should then show you the `XYZ API Wrapper` button which is located on the navigation bar within the page.
 
@@ -452,4 +452,4 @@ This function will request the statistics XYZ Network API endpoints and get you 
 ```
 
 ## Licence
-[ISC License](https://github.com/itstomsci/XYZ-API-Wrapper/blob/google-script/LICENSE)
+[ISC License](https://github.com/TheXYZNetwork/XYZ-API-Wrapper/blob/google-script/LICENSE)
