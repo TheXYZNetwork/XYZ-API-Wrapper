@@ -497,4 +497,4 @@ xyz.getStatisticsInformation("XYZ API Key").then(result => {
 ```
 
 ## Licence
-[ISC License](https://github.com/itstomsci/XYZ-API-Wrapper/blob/master/LICENSE)
+[ISC License](https://github.com/TheXYZNetwork/XYZ-API-Wrapper/blob/master/LICENSE)
