@@ -574,3 +574,106 @@ function getStatisticsInformation(authorization, data) {
         };
     };
 };
+
+
+// Aliases
+
+function getRPName(id, token, server = "policerp") {
+  return getUserServerInformation(id, token, "rpname", server);
+}
+function getRPWallet(id, token, server = "policerp") {
+  return getUserServerInformation(id, token, "wallet", server);
+}
+function getUsergroup(id, token, server = "policerp") {
+  return getUserServerInformation(id, token, "usergroup", server);
+}
+function getPlayime(id, token, server = "policerp") {
+  return getUserServerInformation(id, token, "playtime", server);
+}
+function getLastJoined(id, token, server = "policerp") {
+  return getUserServerInformation(id, token, "lastjoined", server);
+}
+function getBadges(id, token, start, end, server = "policerp") {
+  if (start && !end) {
+    server = start; 
+  } else if (end) {
+    return getUserServerInformation(id, token, "badges", start, end, server);
+  }
+
+  return getUserServerInformation(id, token, "badges", server);
+}
+function getPunishmentRow(id, token, row, server = "policerp") {
+  return getUserServerInformation(id, token, "punishments", row-1, row, server);
+}
+function getPunishmentsTotal(id, token, server = "policerp") {
+  return getUserServerInformation(id, token, "punishment-total", server);
+}
+function getWarnRow(id, token, row, server = "policerp") {
+  return getUserServerInformation(id, token, "warns", row-1, row, server);
+}
+function getWarnsTotal(id, token, server = "policerp") {
+  return getUserServerInformation(id, token, "warns-total", server);
+}
+function getBanRow(id, token, row, server = "policerp") {
+  return getUserServerInformation(id, token, "bans", row-1, row, server);
+}
+function getBansTotal(id, token, server = "policerp") {
+  return getUserServerInformation(id, token, "bans-total", server);
+}
+
+
+function getWebsiteName(id, token) {
+  return getUserxSuiteInformation(id, token, "name");
+}
+function getAvatarURL(id, token) {
+  return getUserxSuiteInformation(id, token, "avatar");
+}
+function getWebsiteBackground(id, token) {
+  return getUserxSuiteInformation(id, token, "background");
+}
+function getWebsiteBio(id, token) {
+  return getUserxSuiteInformation(id, token, "bio");
+}
+
+function getDiscordID(id, token) {
+  return getUserxSuiteLinkInformation(id, token, "discordid");
+}
+function getDiscordName(id, token) {
+  return getUserxSuiteLinkInformation(id, token, "discordusername");
+}
+function getDiscordBoostStatus(id, token) {
+  return getUserxSuiteLinkInformation(id, token, "booster");
+}
+
+
+function getUserJobActivity(id, token, job, server = "policerp") {
+  return getUserJobTrackerInformation(id, job, token, "playtime", "Days", server);
+}
+function getUserJobLastPlayed(id, token, job, server = "policerp") {
+  return getUserJobTrackerInformation(id, job, token, "lastplayed", "Days", server);
+}
+
+
+function getWhitelistedUsersRow(job, token, row, server = "policerp") {
+  return getWhitelistInformation(job, token, "users", row-1, row, server)
+}
+
+
+function getTotalPlayersStats(token) {
+  return getStatisticsInformation(token, "users-total")
+}
+function getRecentPlayersStats(token) {
+  return getStatisticsInformation(token, "users-recently")
+}
+function getTodayPlayersStats(token) {
+  return getStatisticsInformation(token, "users-today")
+}
+function getTotalPlaytimeStats(token) {
+  return getStatisticsInformation(token, "playtime-total")
+}
+function getTotalSteamMembersStats(token) {
+  return getStatisticsInformation(token, "steam-total")
+}
+function getTotalDiscordMembersStats(token) {
+  return getStatisticsInformation(token, "discord-total")
+}
