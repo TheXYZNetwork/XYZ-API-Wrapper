@@ -559,11 +559,11 @@ function getStatisticsInformation(authorization, data) {
     var jsonstatisticsResult = JSON.parse(statisticsResult.getContentText());
 
     if(data) {
-        if(data.toLowerCase().startsWith("players-total")) {
+        if(data.toLowerCase().startsWith("users-total")) {
             return jsonstatisticsResult.result.all_players;
-        } else if(data.toLowerCase() === "players-recently") {
+        } else if(data.toLowerCase() === "users-recently") {
             return jsonstatisticsResult.result.recent_players;
-        } else if(data.toLowerCase() === "players-today") {
+        } else if(data.toLowerCase() === "users-today") {
             return jsonstatisticsResult.result.today_players;
         } else if(data.toLowerCase() === "playtime-total") {
             return toTimeFormat(jsonstatisticsResult.result.total_playtime);
