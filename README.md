@@ -220,7 +220,7 @@ This function will request the xSuite XYZ Network API endpoints and get you the 
 
 ##### Request
 ```
-=getUserxSuiteInformation("SteamID64 / Discord ID", "XYZ API Key", "name", "Server ID")
+=getUserxSuiteInformation("SteamID64 / Discord ID", "XYZ API Key", "name")
 ```
 
 ##### Result
@@ -232,7 +232,7 @@ User
 
 ##### Request
 ```
-=getUserxSuiteInformation("SteamID64 / Discord ID", "XYZ API Key", "avatar", "Server ID")
+=getUserxSuiteInformation("SteamID64 / Discord ID", "XYZ API Key", "avatar")
 ```
 
 ##### Result
@@ -244,7 +244,7 @@ https://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/fe/fef49
 
 ##### Request
 ```
-=getUserxSuiteInformation("SteamID64 / Discord ID", "XYZ API Key", "background", "Server ID")
+=getUserxSuiteInformation("SteamID64 / Discord ID", "XYZ API Key", "background")
 ```
 
 ##### Result
@@ -256,7 +256,7 @@ https://imgur.com/0000000
 
 ##### Request
 ```
-=getUserxSuiteInformation("SteamID64 / Discord ID", "XYZ API Key", "bio", "Server ID")
+=getUserxSuiteInformation("SteamID64 / Discord ID", "XYZ API Key", "bio")
 ```
 
 ##### Result
@@ -273,7 +273,7 @@ This function will request the xSuite Link XYZ Network API endpoints and get you
 
 ##### Request
 ```
-=getUserxSuiteLinkInformation("SteamID64 / Discord ID", "XYZ API Key", "discordusername", "Server ID")
+=getUserxSuiteLinkInformation("SteamID64 / Discord ID", "XYZ API Key", "discordusername")
 ```
 
 ##### Result
@@ -285,7 +285,7 @@ User#0000
 
 ##### Request
 ```
-=getUserxSuiteLinkInformation("SteamID64 / Discord ID", "XYZ API Key", "discordid", "Server ID")
+=getUserxSuiteLinkInformation("SteamID64 / Discord ID", "XYZ API Key", "discordid")
 ```
 
 ##### Result
@@ -297,7 +297,7 @@ User#0000
 
 ##### Request
 ```
-=getUserxSuiteLinkInformation("SteamID64 / Discord ID", "XYZ API Key", "booster", "Server ID")
+=getUserxSuiteLinkInformation("SteamID64 / Discord ID", "XYZ API Key", "booster")
 ```
 
 ##### Result
@@ -383,7 +383,7 @@ This function will request the statistics XYZ Network API endpoints and get you 
 
 ##### Request
 ```
-=getWhitelistInformation("XYZ API Key", "users-total")
+=getStatisticsInformation("XYZ API Key", "users-total")
 ```
 
 ##### Result
@@ -395,7 +395,7 @@ This function will request the statistics XYZ Network API endpoints and get you 
 
 ##### Request
 ```
-=getWhitelistInformation("XYZ API Key", "users-recently")
+=getStatisticsInformation("XYZ API Key", "users-recently")
 ```
 
 ##### Result
@@ -407,7 +407,7 @@ This function will request the statistics XYZ Network API endpoints and get you 
 
 ##### Request
 ```
-=getWhitelistInformation("XYZ API Key", "users-today")
+=getStatisticsInformation("XYZ API Key", "users-today")
 ```
 
 ##### Result
@@ -419,7 +419,7 @@ This function will request the statistics XYZ Network API endpoints and get you 
 
 ##### Request
 ```
-=getWhitelistInformation("XYZ API Key", "playtime-total")
+=getStatisticsInformation("XYZ API Key", "playtime-total")
 ```
 
 ##### Result
@@ -431,7 +431,7 @@ This function will request the statistics XYZ Network API endpoints and get you 
 
 ##### Request
 ```
-=getWhitelistInformation("XYZ API Key", "steam-total")
+=getStatisticsInformation("XYZ API Key", "steam-total")
 ```
 
 ##### Result
@@ -443,7 +443,7 @@ This function will request the statistics XYZ Network API endpoints and get you 
 
 ##### Request
 ```
-=getWhitelistInformation("XYZ API Key", "discord-total")
+=getStatisticsInformation("XYZ API Key", "discord-total")
 ```
 
 ##### Result
