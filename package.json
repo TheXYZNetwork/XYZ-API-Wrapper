@@ -13,5 +13,16 @@
   "license": "ISC",
   "dependencies": {
     "superagent": "^6.1.0"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itstomsci/XYZ-API-Wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itstomsci/XYZ-API-Wrapper/issues"
+  },
+  "homepage": "https://github.com/itstomsci/XYZ-API-Wrapper#readme"
 }
