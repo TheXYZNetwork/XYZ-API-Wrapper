@@ -379,11 +379,11 @@ This function will request the whitelist XYZ Network API endpoints and get you t
 #### Description
 This function will request the statistics XYZ Network API endpoints and get you the data you specified.
 
-#### Get Players Total:
+#### Get Users Total:
 
 ##### Request
 ```
-=getWhitelistInformation("XYZ API Key", "players-total")
+=getWhitelistInformation("XYZ API Key", "users-total")
 ```
 
 ##### Result
@@ -391,11 +391,11 @@ This function will request the statistics XYZ Network API endpoints and get you 
 0
 ```
 
-#### Get Players Recently:
+#### Get Users Recently:
 
 ##### Request
 ```
-=getWhitelistInformation("XYZ API Key", "players-recently")
+=getWhitelistInformation("XYZ API Key", "users-recently")
 ```
 
 ##### Result
@@ -403,11 +403,11 @@ This function will request the statistics XYZ Network API endpoints and get you 
 0
 ```
 
-#### Get Players Today:
+#### Get Users Today:
 
 ##### Request
 ```
-=getWhitelistInformation("XYZ API Key", "players-today")
+=getWhitelistInformation("XYZ API Key", "users-today")
 ```
 
 ##### Result
