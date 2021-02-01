@@ -1,0 +1,17 @@
+{
+  "name": "xyz-api-wrapper",
+  "version": "1.0.0",
+  "description": "An npm package coded in javascript for The XYZ Network API which will wrap and allow you to use all of The XYZ Network API endpoints and easily get information from the specified endpoint!",
+  "main": "index.js",
+  "keywords": [
+    "xyz",
+    "xyz-api",
+    "xyz-wrapper",
+    "xyz-api-wrapper"
+  ],
+  "author": "Tomsci",
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^6.1.0"
+  }
+}
