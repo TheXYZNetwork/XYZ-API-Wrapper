@@ -1,6 +1,6 @@
 {
   "name": "xyz-api-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm package coded in javascript for The XYZ Network API which will wrap and allow you to use all of The XYZ Network API endpoints and easily get information from the specified endpoint!",
   "main": "index.js",
   "keywords": [
@@ -19,10 +19,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itstomsci/XYZ-API-Wrapper.git"
+    "url": "git+https://github.com/TheXYZNetwork/XYZ-API-Wrapper.git"
   },
   "bugs": {
-    "url": "https://github.com/itstomsci/XYZ-API-Wrapper/issues"
+    "url": "https://github.com/TheXYZNetwork/XYZ-API-Wrapper/issues"
   },
-  "homepage": "https://github.com/itstomsci/XYZ-API-Wrapper#readme"
+  "homepage": "https://github.com/TheXYZNetwork/XYZ-API-Wrapper#readme"
 }
