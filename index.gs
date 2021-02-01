@@ -15,7 +15,7 @@ function onOpen() {
 
 function displayDocumentation() {
     var ui = SpreadsheetApp.getUi();
-    ui.alert("Documentation", "Link", ui.ButtonSet.OK);
+    ui.alert("Documentation", "https://github.com/itstomsci/XYZ-API-Wrapper/blob/google-script/README.md", ui.ButtonSet.OK);
 };
 
 function displayCredits() {
